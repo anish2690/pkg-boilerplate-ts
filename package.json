@@ -19,7 +19,8 @@
     "pretest": "yarn run lint",
     "test": "yarn run unit && yarn run build",
     "build": "rollup -c rollup.config.js",
-    "prepublishOnly": "yarn run build"
+    "prepublishOnly": "yarn run build",
+    "release": "release-it"
   },
   "files": [
     "dist",
@@ -40,6 +41,7 @@
     "jest": "^27.3.1",
     "pascalcase": "^1.0.0",
     "prettier": "^2.0.5",
+    "release-it": "^14.11.6",
     "rimraf": "^3.0.2",
     "rollup": "^2.23.0",
     "rollup-plugin-commonjs": "^10.1.0",
