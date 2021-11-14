@@ -6,7 +6,7 @@
   "module": "dist/pkg-boilerplate-ts.esm.js",
   "unpkg": "dist/pkg-boilerplate-ts.js",
   "browser": "dist/pkg-boilerplate-ts.esm.js",
-  "types": "dist/pkg-boilerplate-ts/src",
+  "types": "dist/src",
   "sideEffects": false,
   "author": {
     "name": "Anish George"
